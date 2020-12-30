@@ -28,7 +28,7 @@ class MainViewModel(
             createUserUseCase.invoke(User("test"))
             delay(1000)
             val user = getUserUseCase.invoke("test")
-            val debug = "debug"
+          //  val debug = "debug"
         }
     //    counter.value = (counter.value ?: 0) + 1
     }
